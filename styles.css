@@ -1,0 +1,517 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.netflixlogo {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.netflixlogo img {
+  width: 200px;
+  height: 46px;
+}
+.languageselection {
+  position: absolute;
+  top: 30px;
+  left: 1050px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10%;
+  color: white;
+}
+
+.navbar {
+  height: 0px;
+}
+.signupbutton {
+  position: absolute;
+  top: 30px;
+  left: 1150;
+  border-style: solid;
+  background-color: #e50914;
+  padding: 10px;
+  border-radius: 10%;
+  border-width: 1px;
+}
+.signupbutton a {
+  text-decoration: none;
+  color: white;
+  text-shadow: black;
+}
+
+.navbar {
+  width: 1280px;
+  height: 609px;
+  background-image: url("bgnew.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 120px 100px 250px, #000000, inset -120px -100px -250px #000000;
+}
+.background {
+  width: 1280px;
+  height: 609px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -0;
+}
+.unlimitedtxt {
+  position: absolute;
+  top: 200px;
+  left: 380px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 3.4rem;
+  letter-spacing: 0.5;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.watchtxt {
+  position: absolute;
+  top: 340px;
+  left: 470px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 1.4px;
+  font-size: 1.4rem;
+}
+.readytxt {
+  position: absolute;
+  top: 390px;
+  left: 305px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  word-spacing: 1.4px;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.emailform {
+  position: absolute;
+  top: 430px;
+  left: 340px;
+}
+.emailform input {
+  width: 450px;
+  height: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttontop {
+  position: relative;
+  top: -60px;
+  left: 455px;
+  width: 200px;
+  height: 60.5px;
+  background-color: #e50914;
+}
+.buttontop a {
+  color: white;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+
+.greydecoration {
+  width: 1280px;
+  height: 15px;
+  background-color: #2c2c2c;
+}
+.blackbg1 {
+  width: 1280px;
+  height: 520px;
+  background-color: black;
+
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.tvimg {
+  position: relative;
+  left: 550px;
+  z-index: 100px;
+}
+.video1 {
+  position: relative;
+  top: -115px;
+  left: -15px;
+  z-index: -1;
+}
+.blackbg1 video {
+  z-index: 1;
+  position: relative;
+  top: -115px;
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+.enjoytxt {
+  color: white;
+  position: absolute;
+  top: 750px;
+  left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.enjoy2txt {
+  position: absolute;
+  top: 850px;
+  left: 80px;
+  color: white;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.downtxt {
+  position: absolute;
+  top: 1300px;
+  left: 600px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.down2txt {
+  position: absolute;
+  top: 1450px;
+  left: 610px;
+  color: white;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blackbg3 {
+  width: 1280px;
+  height: 520px;
+  background-color: black;
+
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.blackbg3 video {
+  position: relative;
+  top: -190px;
+}
+.streamtxt {
+  position: absolute;
+  top: 1850px;
+  left: 80px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.stream2txt {
+  position: absolute;
+  top: 1990px;
+  left: 70px;
+  color: white;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.kids {
+  position: relative;
+  top: 25px;
+}
+.sendtxt {
+  position: absolute;
+  top: 2375px;
+  left: 600px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.send2txt {
+  position: absolute;
+  top: 2475px;
+  left: 610px;
+  color: white;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page5 {
+  text-align: center;
+  color: white;
+}
+.blackbg5 {
+  width: 1280px;
+  height: 820px;
+  background-color: black;
+}
+.freq {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  position: relative;
+  top: 40px;
+  text-transform: capitalize;
+}
+.questions {
+  position: relative;
+  top: 110px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-items: center;
+}
+.questions li {
+  padding: 20px 30px;
+  margin: 10px;
+  font-size: 1.6rem;
+  background-color: #303030;
+  color: white;
+  text-align: left;
+  width: 50%;
+  list-style: none;
+}
+.downreadytxt {
+  position: relative;
+  top: 150px;
+  left: 8px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  word-spacing: 1.4px;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.emailform2 {
+  position: relative;
+  top: -120px;
+  left: -115px;
+}
+.emailform2 input {
+  width: 450px;
+  height: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttontop2 {
+  position: relative;
+  top: -60px;
+  left: 865px;
+  width: 200px;
+  height: 60.5px;
+  background-color: #e50914;
+}
+.buttontop2 a {
+  color: white;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+.footer {
+  max-width: 70%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+.footer,
+.footer a {
+  color: #999999;
+  font-size: 0.9rem;
+}
+.footer p {
+  margin-bottom: 1.5rem;
+}
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.footer li {
+  line-height: 2.4;
+}
+.page6 {
+  position: absolute;
+  top: 3630px;
+
+  background-color: black;
+}
+.signuppage {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  position: absolute;
+  top: 80px;
+  left: 400px;
+}
+.signintxt {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  position: relative;
+  left: 60px;
+  top: 80px;
+}
+.emailidforsignin {
+  position: relative;
+  top: 110px;
+  left: 70px;
+}
+.signuppage input {
+  width: 300px;
+  height: 50px;
+  background-color: #333333;
+  font-size: 1rem;
+}
+.signuppage input :placeholder-shown {
+  position: relative;
+  left: 5px;
+}
+.emailidforsignin2 {
+  position: relative;
+  top: 140px;
+  left: 70px;
+}
+.submit1 {
+  position: relative;
+  top: 170px;
+  left: 70px;
+  height: 50px;
+  width: 300px;
+  background-color: #e50914;
+}
+
+.submit1 a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  position: relative;
+  top: 10px;
+  left: 110px;
+}
+.remembertxt {
+  position: relative;
+  top: 180px;
+  left: 90px;
+  color: white;
+  font-size: 1rem;
+}
+.needhelptxt {
+  position: relative;
+  top: 160px;
+  left: 290px;
+}
+.needhelptxt a {
+  color: white;
+}
+.newtxt {
+  position: relative;
+  top: 180px;
+  left: 120px;
+  color: white;
+  font-size: 1.2rem;
+}
+.newtxt a {
+  text-decoration: underline;
+  color: white;
+  font-size: 1.2rem;
+}
+.thispagetxt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: white;
+  position: relative;
+  top: 200px;
+  left: 105px;
+}
+.whoiswatching {
+  width: 370px;
+  height: 0px;
+}
+.whostxt {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  top: 100px;
+  left: 450px;
+  text-align: center;
+}
+.facelogin {
+  width: 100px;
+  height: 0px;
+}
+.facelogin img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 120px;
+  left: 380px;
+}
+.facelogin1 {
+  width: 100px;
+  height: 0px;
+}
+
+.facelogin1 img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -209px;
+  left: 580px;
+}
+
+.tejaswi {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  left: 480px;
+  top: 50px;
+}
+.bhargav {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  left: 80px;
+  top: -275px;
+  left: 680px;
+}
+.managetxt {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-color: white;
+  border: solid;
+  position: absolute;
+  top: 520px;
+  left: 550px;
+  font-weight: lighter;
+  padding: 10px;
+}
+.entry {
+  width: 1280px;
+  height: 609px;
+}
+.entrypage {
+  background-color: #000000;
+  width: 1280px;
+  min-height: 630px;
+}
